@@ -26,8 +26,8 @@ int main(int argc, char* argv[])
   cout.setf(ios::fixed);
   cout.setf(ios::showpoint);
   cout.precision(3);  
-  
-  cout<<"GPA: "<< calculateGPA(numCourses, courseGrades)<<endl;
+  double result = calculateGPA(numCourses, courseGrades); 
+  cout<<"GPA: "<< result <<endl;
   
   return 0;
 }
