@@ -14,7 +14,6 @@ int main(int argc, char* argv[])
   string courseLetterGrades[5];
   double gpa;
   int numCourses = int(argc/2);
-  cout << "Num courses : "<<numCourses<<endl;
 
   for (int i = 1; i< argc; i=i+2 ){
     courseNames[i-1] = string(argv[i]);
