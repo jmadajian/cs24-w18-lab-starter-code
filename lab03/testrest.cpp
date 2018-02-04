@@ -74,7 +74,7 @@ int main(int argc, char* argv[]) {
     }
     if(atoi(argv[1])==2){
         test_destructor();
-        cout<<"PASSED destructor tests"<<endl;
+        cout<<"Testing destructor, run in valgrind to check for leaks"<<endl;
     }
     if(atoi(argv[1])==3){
         test_assignmentOperator();
