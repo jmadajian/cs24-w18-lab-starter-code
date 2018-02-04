@@ -12,7 +12,6 @@ int main(int argc, char* argv[])
   string courseNames[5];
   double courseGrades[5];
   string courseLetterGrades[5];
-  double gpa;
   int numCourses = int(argc/2);
 
   for (int i = 1; i< argc; i=i+2 ){
