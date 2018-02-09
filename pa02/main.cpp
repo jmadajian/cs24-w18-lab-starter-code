@@ -12,27 +12,25 @@ int main(int argv, char** argc){
   
   ifstream cardFile1 (argc[1]);
   ifstream cardFile2 (argc[2]);
-  
   string line;
-  if (cardFile1.is_open()){
-    while (getline (cardFile1, line)){
-     //FILL THIS IN
-    }
-    cardFile1.close();
-  }
-  else{
-    cout << "Could not open file " << argc[1];
-    return 1;
-  }
 
-  if (cardFile2.is_open()){
-    while (getline (cardFile2, line)){
-      //FILL THIS IN
-    }
-    cardFile2.close();
-  }
-  else{
+  if (cardFile1.fail() || cardFile2.fail() ){
     cout << "Could not open file " << argc[2];
     return 1;
   }
+
+  //Read each file
+  while (getline (cardFile1, line) && (line.length() > 0)){
+
+  }
+  cardFile1.close();
+
+
+  while (getline (cardFile2, line) && (line.length() > 0)){
+
+  }
+  cardFile2.close();
+  
+  
+  return 0;
 }
