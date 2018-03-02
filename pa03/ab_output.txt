@@ -5,10 +5,10 @@ Bob picked matching card s 10
 
 Alice's cards:
 c a
-s a
+s 5
 h 3
 
 Bob's cards:
 c 2
 d j
-s 5
+h a
