@@ -2,6 +2,6 @@ h 3
 s 10
 c a
 c 3
-s 10
+s 5
 h 10
-s a
+d a
