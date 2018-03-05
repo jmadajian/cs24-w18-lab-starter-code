@@ -25,7 +25,6 @@ public:
 
 private:
 
-    // DO NOT CHANGE DEFINITION OF struct Node:
     struct Node {
         int info;
         Node *left, *right;
